@@ -90,7 +90,7 @@ async function issueNewCard(agent) {
     // In a real card issuance environment, this request will
     // go to the API of the service who is managing creating the
     // card number.
-    baseURL: "http://echo.sandbox.verygoodvault.com/",
+    baseURL: "https://echo.sandbox.verygoodvault.com/",
     httpsAgent: agent,
   });
 
